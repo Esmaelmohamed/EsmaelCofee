@@ -759,6 +759,7 @@ img {
 
 
   }
+ 
 }
 
 
@@ -1052,9 +1053,10 @@ img {
 
   }
   .about__container {
-    grid-template-columns: 400px max-content;
+    grid-template-columns:  1fr;
 
   }
+  
   .steps__bg .section__title {
     color: var(--white-color);
   }
@@ -1068,6 +1070,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: var(--second-font);
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1079,7 +1082,7 @@ img {
 @media screen and (min-width:1000px) {
   
 
-  nav__logo {
+  .nav__logo {
     width: 40px;
 
   }
@@ -1118,3 +1121,5 @@ img {
   }
   
 }
+
+
